@@ -1,0 +1,49 @@
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio - Component Library</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="indx.html">Studio</a>
+    <nav>
+      <ul>
+        <li><a href="indx.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="components.html">Components</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>Component Library</h1>
+      <p class="label">Every style on this page comes from the CSS variables.</p>
+
+      <!-- Section 1: Alerts / Notifications -->
+      <h2>1. Alerts & Notifications</h2>
+      <div class="alert alert-success" role="alert">
+        Success! Your settings have been saved.
+      </div>
+      <div class="alert alert-error" role="alert">
+        Error! Something went wrong. Please try again.
+      </div>
+
+      <!-- Section 2: Pure CSS Modal Window -->
+      <h2>2. Pure CSS Modal Window</h2>
+      <a href="#modal-window" class="btn-primary">Open Modal Window</a>
+
+      <div id="modal-window" class="modal">
+        <div class="modal-content">
+          <a href="#" class="close-btn" aria-label="Close modal">&times;</a>
+          <h3>Pure CSS Modal</h3>
+          <p>This modal window is controlled entirely with CSS using the <code>:target</code> pseudo-class (No JavaScript).</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
